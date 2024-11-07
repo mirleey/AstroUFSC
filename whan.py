@@ -5,12 +5,10 @@ plt.ion()           #MADIÇÃO interativo
 from pathlib import Path
 import numpy as np
 from pycasso2 import FitsCube
-
-cubenames=os.listdir("/net/ASTRO/manga/data/PRAM/muse/starlight_el/bin21.cA.CB16_6x16") #juntando todas os arquivos, se usar o (!ls) ativamos o linux, portanto não se usa (), "" etc.      
+musecubes_path = "/net/ASTRO/pram/pram/starlight_el/bin1.v2.cA.CB16_6x16/"
+cubenames=os.listdir(musecubes_path) #juntando todas os arquivos, se usar o (!ls) ativamos o linux, portanto não se usa (), "" etc.      
 # all_galaxy=Path('/net/ASTRO/manga/data/PRAM/muse/starlight_el/bin21.cA.CB16_6x16/') #juntando dois arquivos
-musecubes_path='/net/ASTRO/manga/data/PRAM/muse/starlight_el/bin21.cA.CB16_6x16/'
-#galaxy=all_galaxy/'muse-MCG-01-38-015.bin21.cA.CB16_6x16.dobby.fits'             
-# galaxy_one=all_galaxy/'muse-3C264.bin21.cA.CB16_6x16.dobby.fits'
+
 
 
 sir_mixe= []
